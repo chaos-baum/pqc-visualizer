@@ -1,0 +1,56 @@
+header h1 { 
+    margin: 0; 
+}
+
+header p { 
+    color: var(--text-dark); 
+}
+
+.step-box h3 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#comparison-panel h4 {
+    margin-top: 0;
+    border-bottom: 1px solid #4a5568;
+    padding-bottom: 0.5rem;
+}
+
+.compare-item h5 { 
+    margin: 0 0 0.5rem 0; 
+    color: var(--accent-blue); 
+}
+
+.compare-item p { 
+    margin: 0.4rem 0; 
+    font-size: 0.9rem; 
+    color: var(--text-light); 
+}
+
+.compare-item p strong { 
+    color: var(--text-dark); 
+    font-weight: 600; 
+    margin-right: 0.5em; 
+}
+
+.feedback-msg {
+    margin-top: 1rem;
+    color: var(--text-dark);
+    font-style: italic;
+    min-height: 1em; 
+}
+
+.param-selector input[type="text"]::placeholder {
+    color: var(--text-dark);
+}
+
+.code-block strong {
+    color: var(--accent-blue);
+}
+
+.code-block code {
+    color: var(--text-light);
+}
